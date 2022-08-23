@@ -9,12 +9,14 @@ class Platform extends Obstacles{
         this.height = 20;
         this.slideSpeed = speed;
 
+        this.image2 = new Image();
+        this.image2.src = '/src/img/pngwing.com.png'
+
         console.log(speed)
     }
     
     draw(){
-        ctx.fillStyle = 'purple'
-        ctx.fillRect(this.position.x, this.position.y, this.width, this.height)
+        ctx.drawImage(this.image2, this.position.x, this.position.y, this.width, this.height);
     }
 
     slide(){

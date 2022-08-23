@@ -15,7 +15,7 @@ class Background {
   
     draw() {
         
-        ctx.fillStyle = "#000000";
+        ctx.fillStyle = "#282828";
         ctx.fillRect(0, 400, 1000, 600);
 
 
